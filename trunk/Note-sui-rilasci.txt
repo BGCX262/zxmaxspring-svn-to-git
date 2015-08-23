@@ -1,0 +1,7 @@
+TAG 1.0
+in questo tag configuro il progetto e lo faccio compilare.
+
+TAG 2.0
+In questo tag valorizzo il file jdbc.preperties,  viene creato il file .war, si può testare il login ottenendo una violazione 
+d'accesso perché i profili associati all'utente admin non corrispondono a quelli gestiti dal front-end.
+

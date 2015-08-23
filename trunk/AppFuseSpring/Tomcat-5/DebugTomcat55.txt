@@ -1,0 +1,14 @@
+@rem basta rinominare in .bat ed eseguire.
+@rem Tomcat partirà in debug mode.
+@rem si potrà attaccarsi trmite un ide in modalità remote debugging.
+
+
+cd\
+
+cd %TOMCAT_HOME%
+set JPDA_TRANSPORT=dt_socket
+set JPDA_ADDRESS=8000
+
+cd bin
+
+catalina jpda start
